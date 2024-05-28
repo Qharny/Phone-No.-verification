@@ -1,5 +1,3 @@
-Certainly! Below is a simple `README.md` file for the Firebase Phone Authentication project.
-
 ---
 
 # Firebase Phone Authentication
