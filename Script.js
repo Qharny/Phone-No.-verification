@@ -3,13 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js";
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDCDVqPquUEfCUSkq_3c12mdlSALofhcqc",
-  authDomain: "wanda-62696.firebaseapp.com",
-  projectId: "wanda-62696",
-  storageBucket: "wanda-62696.appspot.com",
-  messagingSenderId: "759649773016",
-  appId: "1:759649773016:web:fa4a708cb3ac57dca1bead"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase
