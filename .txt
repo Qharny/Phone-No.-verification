@@ -1,8 +1,0 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyDCDVqPquUEfCUSkq_3c12mdlSALofhcqc",
-  authDomain: "wanda-62696.firebaseapp.com",
-  projectId: "wanda-62696",
-  storageBucket: "wanda-62696.appspot.com",
-  messagingSenderId: "759649773016",
-  appId: "1:759649773016:web:fa4a708cb3ac57dca1bead"
-};
