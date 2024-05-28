@@ -43,6 +43,7 @@ const sendVerificationCode = () => {
     })
     .catch((error) => {
       console.error("Error during signInWithPhoneNumber", error);
+      window.alert.error("Error during signInWithPhoneNumber", error);
     });
 };
 
@@ -55,9 +56,11 @@ const verifyCode = () => {
       // User signed in successfully.
       const user = result.user;
       console.log("User signed in successfully:", user);
+      window.alert("User signed in successfully:", user)
     })
     .catch((error) => {
       console.error("Error during code verification", error);
+      window.alert.error("Error during code verification", error)
     });
 };
 
